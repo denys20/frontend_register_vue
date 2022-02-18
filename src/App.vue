@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Register msg="Sign Up Form"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Register from './components/Register'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Register
   }
 }
 </script>
@@ -17,10 +16,14 @@ export default {
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: monospace, sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  height: 100%;
+  background: rgb(88,88,88);
+  padding: 40px;
 }
+
 </style>
